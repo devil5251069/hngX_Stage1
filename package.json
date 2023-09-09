@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "stage1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "Aditya Bhave",
+  "license": "ISC",
+  "description": ""
+}
