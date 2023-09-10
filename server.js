@@ -20,8 +20,8 @@ app.get('/api', (req, res) => {
     current_day: currentDay,
     utc_time: utcTime,
     track: track,
-    github_file_url: null,
-    github_repo_url: null,
+    github_file_url: "https://github.com/devil5251069/hngX_Stage1/blob/master/server.js",
+    github_repo_url: "https://github.com/devil5251069/hngX_Stage1",
     status_code: 200
   };
 
