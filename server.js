@@ -9,10 +9,10 @@ app.get('/api', (req, res) => {
   const track = req.query.track;
 
   // Get the current day of the week
-  const currentDay = moment().format('dddd');
+  const currentDay = moment().utc().format('dddd');
 
   // Get the current UTC time
-  const utcTime = moment().utc().format('YYYY-MM-DDTHH:mm:ssZ');
+  const utcTime = moment().utc().format('YYYY-MM-DDTHH:mm:ss[Z]');
 
   // Create the JSON response
   const response = {
